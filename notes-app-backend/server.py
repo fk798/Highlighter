@@ -60,3 +60,6 @@ def login():
         if "result" not in ret.keys():
             ret["result"] = False
         return jsonify(ret)
+    
+if __name__ == '__main__':
+    app.run()
